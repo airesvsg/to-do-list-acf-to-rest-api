@@ -1,0 +1,155 @@
+/*
+Theme Name: To do List - ACF to REST API
+Theme URI: http://github.com/airesvsg/acf-to-rest-api
+Author: Aires Gonçalves
+Author URI: https://github.com/airesvsg
+Description: Example for the plugin ACF to REST API ( issue #2 )
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background: #eae8ea;
+  color: #333;
+  overflow-y: scroll;
+}   
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.header {
+  display: block;
+  margin: 10px 0 10px;
+}
+
+.header-title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.form {
+  border-top: 1px solid #e1e1de;
+  border-bottom: 1px solid #e1e1de;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.input-text {
+  width: 100%;
+  border: 1px solid #e1e1de;
+  padding: 5px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #e1e1de;
+  border-bottom: 4px solid #e1e1de;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.list-item-checked {
+  opacity: .5;
+}
+
+.list-item-checked .list-title {
+  text-decoration: line-through;
+}
+
+.list-item-label {
+  display: flex;
+}
+
+.list-check {
+  float: left;
+  margin-top: 5px;
+}
+
+.list-title {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn {
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 7px;
+  opacity: 0;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+
+}
+
+.btn-remove {
+  right: 10px;
+  background: #e74c3c;
+}
+
+.list-item:hover .btn {
+  opacity: 1;
+}
+
+.footer {
+  margin-bottom: 30px;
+}
+
+.footer a {
+  display: block;
+  border-top: 1px solid #e1e1de;
+  color: #666;
+  padding-top: 10px;
+}
+
+.footer a img {
+  width: 20px;
+  float: left;
+  margin-right: 5px;
+}
+
+.footer a span {
+  font-weight: 700;
+  color: #333;
+}
+
+#ribbon {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 98%;
+    padding: 0 1%;
+  }
+}
