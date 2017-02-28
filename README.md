@@ -17,8 +17,8 @@ Make sure you are running WordPress >= 4.7 so you can make use of its core API f
 
 Live Demo
 ==
-[![Live Demo](http://airesgoncalves.com.br/screenshot/assets/buttons/live-demo.png)](http://airesgoncalves.com.br/acf-to-rest-api)
+[![Live Demo](http://airesgoncalves.com.br/screenshot/assets/buttons/live-demo.png)](http://airesgoncalves.com.br/to-do-list)
 
 Screenshot
 ==
-[![Example](http://airesgoncalves.com.br/screenshot/to-do-acf-to-rest-api/example.png)](http://airesgoncalves.com.br/acf-to-rest-api)
+[![Example](http://airesgoncalves.com.br/screenshot/to-do-list-acf-to-rest-api/screenshot.png)](http://airesgoncalves.com.br/to-do-list)
